@@ -1,0 +1,61 @@
+.breaoutSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+    scroll-margin-top: 78px;
+}
+.breaoutSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.breaoutSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.breaoutSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+.breaoutSection .allTracks{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: center;
+}
+.allTracks .eachTracks{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    border: 2px solid #a1a1a180;
+    border-radius: 10px;
+    padding: 40px 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 160px;
+}
+.eachTracks h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #38b46b;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.eachTracks p{
+    font-family: "Syne", sans-serif;
+    color: #ffffff99;
+}

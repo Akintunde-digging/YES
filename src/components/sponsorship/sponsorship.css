@@ -1,0 +1,119 @@
+.sponsorsSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+    scroll-margin-top: 78px;
+}
+.sponsorsSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.sponsorsSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.sponsorsSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+.sponsorsSection>h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+.sponsorsSection .sponsorsOffersAndCategories{
+    display: flex;
+}
+.sponsorsOffersAndCategories .sponsorsOffers, .sponsorsOffersAndCategories .sponsorsCategories{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.sponsorsOffersAndCategories .sponsorsOffers{
+    width: 50%;
+}
+.sponsorsOffersAndCategories .sponsorsCategories div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+}
+.sponsorsOffers h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.sponsorsCategories h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.sponsorsOffers span, .sponsorsCategories span{
+    font-family: "Syne", sans-serif;
+    font-size: 14px;
+    display: flex;
+    color: #ffffffbf;
+    gap: 10px;
+    align-items: center;
+}
+.sponsorsCategories span{
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 18px;
+    border: 0.5px solid #ffffff1a;
+    border-radius: 10px;
+    background-color: #111;
+    justify-content: center;
+}
+.sponsorsOffers .sponsorOfferCheck{
+    color: #38b46b; 
+    font-size: 16px; 
+}
+.sponsorsSection .sponsorshipButtons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.sponsorshipButtons button{
+    font-family: "Syne", sans-serif;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.sponsorshipButtons .button1{
+    color: #000;
+    background-color: #38b46b;
+    border: none;
+    font-weight: 700;
+}
+.sponsorshipButtons .button2{
+    color: #fff;
+    background-color: transparent;
+    border: 1.5px solid #ffffff1f;
+    font-weight: 600;
+}

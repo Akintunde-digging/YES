@@ -1,0 +1,49 @@
+.readySection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+}
+.readySection h1{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.readySection h2{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    max-width: 750px;
+}
+.readySection .readySectionButtons{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.readySectionButtons button{
+    font-family: "Syne", sans-serif;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.readySectionButtons .registerButton{
+    color: #000;
+    background-color: #38b46b;
+    border: none;
+    font-weight: 700;
+}
+.readySectionButtons .others{
+    color: #fff;
+    background-color: transparent;
+    border: 1.5px solid #ffffff1f;
+    font-weight: 600;
+}

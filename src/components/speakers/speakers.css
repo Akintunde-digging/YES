@@ -1,0 +1,84 @@
+.speakersSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+    scroll-margin-top: 78px;
+}
+.speakersSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.speakersSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.speakersSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.speakersSection h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.speakersSection .allSpeakers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 15px;
+}
+.allSpeakers .eachSpeakers{
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid #a1a1a180;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.eachSpeakers .imgDiv{
+    width: 100%;
+}
+.imgDiv img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.eachSpeakers .eachText{
+    display: flex;
+    width: 100%;
+    min-height: 90px;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #000000f3;
+}
+.eachText h4{
+    font-family: "Syne", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.eachText p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #ffffffc0;
+}
+.eachText span{
+    font-family: "DM Sans", sans-serif;
+    font-size: 13px;
+    color: #38b46b;
+    margin-bottom: 2px;
+}

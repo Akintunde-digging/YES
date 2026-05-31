@@ -1,0 +1,90 @@
+.faqSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+}
+.faqSection .faqContents{
+    display: flex;
+    flex-direction: column;
+}
+.faqContents h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.faqContents h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.faqContents h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.faqContents .faqQuestionsAndAnswer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding-inline: 150px;
+}
+.faqQuestionsAndAnswer .faqItem{
+    display: flex;
+    flex-direction: column;
+    background-color: #38b46c97;
+    padding-inline: 35px 70px;
+    padding-bottom: 20px;
+    border-radius: 14px;
+}
+.faqItem .faqQuestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding-block: 40px 15px;
+}
+.faqQuestion h3{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+}
+.faqQuestion button{
+    font-size: 25px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #03D26F;
+    background-color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+}
+.faqAnswer{
+    display: grid;
+    grid-template-rows: 0fr;
+}
+.faqAnswer p{
+    font-family: "DM Sans", sans-serif;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffffd1;
+}
+.faqItem.open .faqAnswer {
+  grid-template-rows: 1fr;
+  padding-bottom: 20px;
+}

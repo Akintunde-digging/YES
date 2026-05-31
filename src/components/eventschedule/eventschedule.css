@@ -1,0 +1,67 @@
+.scheduleSection{
+    background-color: #000;
+    padding-block: 60px;
+    padding-inline: 60px;
+    scroll-margin-top: 78px;
+}
+.scheduleSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.scheduleSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.scheduleSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.scheduleTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.scheduleTable th,
+.scheduleTable td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff20;
+}
+.scheduleTable th{
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+}
+.scheduleTable .sessionGroup td {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #38b46b;
+  padding: 12px 20px;
+  white-space: nowrap;
+  width: 120px;
+  font-weight: 700;
+  font-family: "DM Sans", sans-serif;
+}
+.scheduleTable .time{
+    font-family: "Syne", sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+.scheduleTable .sAndD{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffbb;
+}

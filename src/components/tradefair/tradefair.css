@@ -1,0 +1,110 @@
+.tradeFairSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    scroll-margin-top: 78px;
+}
+.tradeFairSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.tradeFairSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.tradeFairSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    max-width: 900px;
+    margin-bottom: 10px;
+}
+.tradeFairSection>h3{
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+.tradeFairSection .provisionsAndCategories{
+    display: flex;
+    gap: 50px;
+}
+.provisionsAndCategories .provisions, .provisionsAndCategories .categories{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.provisionsAndCategories .provisions{
+    width: 30%;
+}
+.provisionsAndCategories .categories div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+.provisions h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.categories h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+}
+.provisions span, .categories span{
+    font-family: "Syne", sans-serif;
+    font-size: 14px;
+    display: flex;
+    color: #ffffffbf;
+    gap: 10px;
+    align-items: center;
+}
+.categories span{
+    padding: 16px 18px;
+    border: 0.5px solid #ffffff1a;
+    border-radius: 10px;
+    background-color: #111;
+}
+.provisions .provisionArrow, .categories .categoriesIcon{
+    color: #38b46b; 
+    font-size: 16px; 
+}
+.tradeFairSection button{
+    font-family: "Syne", sans-serif;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    color: #000;
+    background-color: #38b46b;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+.exhibitorButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

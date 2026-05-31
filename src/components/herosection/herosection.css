@@ -1,0 +1,99 @@
+.heroSection{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding-inline: 60px;
+    padding-bottom: 60px;
+}
+.heroSection .h1sAndPs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.h1sAndPs h1, .h1sAndPs h2, .h1sAndPs span{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.h1sAndPs h1{
+    font-size: 40px;
+    margin-block: 40px 10px;
+}
+.h1sAndPs h1 .summitSpan{
+    color: #38b46b;
+}
+.h1sAndPs h1 .yearSpan{
+    -webkit-text-stroke: 1px #ffffffba;
+    color: transparent;
+}
+.h1sAndPs h2{
+    font-size: 60px;
+    margin-bottom: 28px;
+}
+.h1sAndPs h3{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 600px;
+    color: #ffffff99;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+.h1sAndPs p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #ffffff66;
+    max-width: 580px;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.heroSection .locationAndTime{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 40px;
+}
+.locationAndTime .eachLocationAndTime{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.eachLocationAndTime span{
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff99;
+}
+.eachLocationAndTime p{
+    font-family: "Syne", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+.heroSection .buttons{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.buttons button{
+    font-family: "Syne", sans-serif;
+    padding: 14px 28px;
+    border-radius: 6px;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+}
+.buttons .registerButton{
+    color: #000;
+    background-color: #38b46b;
+    border: none;
+    font-weight: 700;
+}
+.buttons .others{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #ffffff1f;
+    font-weight: 600;
+}

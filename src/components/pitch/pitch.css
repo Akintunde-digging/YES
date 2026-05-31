@@ -1,0 +1,95 @@
+.pitchSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+    scroll-margin-top: 78px;
+}
+.pitchSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.pitchSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.pitchSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+.pitchSection h3{
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.pitchMiddle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.pitchLeft {
+  background-color: #111;
+  border: 0.5px solid #a1a1a180;
+  border-radius: 14px;
+  padding: 32px;
+}
+
+.pitchRight {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.pitchCard {
+  background-color: #111;
+  border: 0.5px solid #a1a1a180;
+  border-radius: 14px;
+  padding: 28px;
+  flex: 1;
+}
+
+.pitchColLabel {
+    font-family: "DM Sans", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.pitchList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pitchItem {
+    font-family: "Syne", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #ffffffbf;
+}
+
+.pitchArrow, .pitchCheck, .pitchTrophy { 
+    color: #38b46b; 
+    font-size: 16px; 
+    flex-shrink: 0; 
+}

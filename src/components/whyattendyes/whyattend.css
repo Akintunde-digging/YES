@@ -1,0 +1,55 @@
+.whyAttendSection{
+    padding-block: 60px;
+    padding-inline: 60px;
+    background-color: #000;
+}
+.whyAttendSection h1{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    color: #38b46b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.whyAttendSection h1 span{
+    background-color: #38b46b;
+    width: 24px;
+    height: 2px;
+}
+.whyAttendSection h2{
+    font-family: "Syne", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+.whyAttendSection h3{
+    font-family: "DM Sans", sans-serif;
+    color: #ffffffd1;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+.whyAttendSection div{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.whyAttendSection span{
+    font-family: "Syne", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: #ffffffbf;
+}
+span .whyAttendIcons{
+    color: #38b46b; 
+    font-size: 16px;
+}

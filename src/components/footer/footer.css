@@ -146,4 +146,7 @@
     .socials .socialsIcon{
         font-size: 24px;
     }
+    .afterBorder p{
+        text-align: center;
+    }
 }

@@ -108,3 +108,35 @@
     justify-content: center;
     margin-top: 50px;
 }
+
+@media (max-width: 768px) {
+    .tradeFairSection{
+        padding-inline: 24px;
+    }
+    .tradeFairSection h2{
+        font-size: 50px;
+    }
+    .provisionsAndCategories .provisions{
+        width: 40%;
+    }
+    .provisionsAndCategories .categories div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .tradeFairSection{
+        padding-inline: 16px;
+    }
+    .tradeFairSection h2{
+        font-size: 36px;
+    }
+    .tradeFairSection .provisionsAndCategories{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .provisionsAndCategories .provisions{
+        width: 100%;
+    }
+}

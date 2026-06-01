@@ -46,3 +46,54 @@ nav .logoDiv{
     cursor: pointer;
 }
 
+.hamburger{
+    display: none;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .hamburger{
+        display: flex;
+        font-size: 30px;
+        border: none;
+        color: #ffff;
+        background-color: #38b46b;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .listAndButton{
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        margin-top: 74px;
+        width: 50%;
+        height: 100vh;
+        flex-direction: column;
+        z-index: 999;
+        background-color: #000;
+        transition: transform 0.3s ease;
+        gap: 50px;
+    }
+    .listAndButton.open{
+        display: flex;
+        transform: translateX(0);
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+    }
+    nav{
+        padding-inline: 24px;
+    }
+    nav ul a{
+    color: #fff;
+    }
+}
+@media (max-width: 480px) {
+    nav{
+        padding-inline: 16px;
+    }
+}

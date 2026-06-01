@@ -65,3 +65,21 @@
     font-family: "DM Sans", sans-serif;
     color: #ffffffbb;
 }
+
+@media (max-width: 768px) {
+    .scheduleSection{
+        padding-inline: 24px;
+    }
+    .scheduleSection h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .scheduleSection{
+        padding-inline: 16px;
+    }
+    .scheduleSection h2{
+        font-size: 36px;
+    }
+}

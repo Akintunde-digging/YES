@@ -82,3 +82,35 @@
     color: #38b46b;
     margin-bottom: 2px;
 }
+
+@media (max-width: 900px) {
+    .speakersSection .allSpeakers{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .speakersSection{
+        padding-inline: 24px;
+    }
+    .speakersSection h2{
+        font-size: 50px;
+    }
+    .speakersSection .allSpeakers{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .speakersSection{
+        padding-inline: 16px;
+    }
+    .speakersSection h2{
+        font-size: 36px;
+    }
+    .speakersSection .allSpeakers{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-inline: 30px;
+    }
+}

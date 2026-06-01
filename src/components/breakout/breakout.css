@@ -59,3 +59,28 @@
     font-family: "Syne", sans-serif;
     color: #ffffff99;
 }
+
+@media (max-width: 768px) {
+    .breaoutSection{
+        padding-inline: 24px;
+    }
+    .breaoutSection h2{
+        font-size: 50px;
+    }
+    .breaoutSection .allTracks{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .breaoutSection{
+        padding-inline: 16px;
+    }
+    .breaoutSection h2{
+        font-size: 36px;
+    }
+    .breaoutSection .allTracks{
+        grid-template-columns: 1fr;
+        padding-inline: 30px;
+    }
+}

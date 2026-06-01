@@ -63,3 +63,33 @@
     color: #ffffff99;
     text-align: center;
 }
+@media (max-width: 900px) {
+    .whatToExpectSection .thingsToExpect{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .eachThingsToExpect h3{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .whatToExpectSection{
+        padding-inline: 24px;
+    }
+    .whatToExpectSection h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whatToExpectSection{
+        padding-inline: 16px;
+    }
+    .whatToExpectSection h2{
+        font-size: 36px;
+    }
+    .whatToExpectSection .thingsToExpect{
+        grid-template-columns: 1fr;
+        padding-inline: 30px;
+    }
+}

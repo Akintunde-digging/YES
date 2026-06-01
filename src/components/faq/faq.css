@@ -88,3 +88,24 @@
   grid-template-rows: 1fr;
   padding-bottom: 20px;
 }
+
+@media (max-width: 768px) {
+    .faqSection{
+        padding-inline: 24px;
+    }
+    .faqContents .faqQuestionsAndAnswer{
+        padding-inline: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .faqSection{
+        padding-inline: 16px;
+    }
+    .faqSection h2{
+        font-size: 24px;
+    }
+    .faqContents .faqQuestionsAndAnswer{
+        padding-inline: 0;
+    }
+}

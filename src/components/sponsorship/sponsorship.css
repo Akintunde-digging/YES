@@ -35,7 +35,7 @@
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     max-width: 750px;
 }
 .sponsorsSection .sponsorsOffersAndCategories{
@@ -116,4 +116,36 @@
     background-color: transparent;
     border: 1.5px solid #ffffff1f;
     font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .sponsorsSection{
+        padding-inline: 24px;
+    }
+    .sponsorsSection h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sponsorsSection{
+        padding-inline: 16px;
+    }
+    .sponsorsSection h2{
+        font-size: 36px;
+    }
+    .sponsorsSection .sponsorsOffersAndCategories{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .sponsorsOffersAndCategories .sponsorsOffers{
+        width: 100%;
+    }
+    .sponsorsSection .sponsorshipButtons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsorshipButtons button{
+        width: fit-content;
+    }
 }

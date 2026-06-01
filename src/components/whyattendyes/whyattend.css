@@ -53,3 +53,21 @@ span .whyAttendIcons{
     color: #38b46b; 
     font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    .whyAttendSection{
+        padding-inline: 24px;
+    }
+    .whyAttendSection h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .whyAttendSection{
+        padding-inline: 16px;
+    }
+    .whyAttendSection h2{
+        font-size: 36px;
+    }
+}

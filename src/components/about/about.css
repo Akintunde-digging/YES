@@ -36,6 +36,7 @@
 }
 .whether h2, .whether h3{
     font-family: "Syne", sans-serif;
+    font-size: 24px;
     color: #ffffffec;
 }
 .whether ul{
@@ -54,5 +55,20 @@
 .whether ul li span{
     width: 10px;
     height: 1px;
-    background-color: #ffffffc5;
+    background-color: #38b46b;
+}
+
+@media (max-width: 768px) {
+    .aboutSection{
+        padding-inline: 24px;
+    }
+    .whether h2, .whether h3{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutSection{
+        padding-inline: 16px;
+    }
 }

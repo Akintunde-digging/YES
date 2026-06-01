@@ -93,3 +93,26 @@
     font-size: 16px; 
     flex-shrink: 0; 
 }
+
+@media (max-width: 768px) {
+    .pitchSection{
+        padding-inline: 24px;
+    }
+    .pitchSection h2{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pitchSection{
+        padding-inline: 16px;
+    }
+    .pitchSection h2{
+        font-size: 36px;
+    }
+    .pitchMiddle{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 10px;
+    }
+}

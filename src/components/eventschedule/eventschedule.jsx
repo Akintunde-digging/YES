@@ -2,6 +2,7 @@ import "./eventschedule.css";
 
 function EventSchedule(){
     return(
+        <div className="tableWrapper">
         <div className="scheduleSection" id="programme">
             <h1><span className="dash"></span>Programme</h1>
             <h2>Event Schedule</h2>
@@ -72,6 +73,7 @@ function EventSchedule(){
                     </tr>
                 </tbody>
             </table>
+        </div>
         </div>
     )
 }

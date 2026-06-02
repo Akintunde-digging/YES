@@ -95,7 +95,13 @@
 .buttons .others{
     color: #fff;
     background-color: transparent;
-    border: 1px solid #ffffff1f;
+    border: 1.5px solid #a1a1a180;
+    font-weight: 600;
+}
+.buttons .others:hover{
+    color: #000;
+    background-color: #38b46b;
+    border: 1.5px solid transparent;
     font-weight: 600;
 }
 

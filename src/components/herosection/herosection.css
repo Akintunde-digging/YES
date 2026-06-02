@@ -4,6 +4,7 @@
     background-color: #000;
     padding-inline: 60px;
     padding-bottom: 60px;
+    scroll-margin-top: 78px;
 }
 .heroSection .h1sAndPs{
     display: flex;

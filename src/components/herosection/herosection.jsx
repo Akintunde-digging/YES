@@ -2,7 +2,7 @@ import "./herosection.css";
 
 function HeroSection(){
     return(
-        <div className="heroSection">
+        <div className="heroSection" id="hero">
             <div className="h1sAndPs">
                 <h1>Youth Enterpreneurship <span className="summitSpan">Summit</span> (YES) <span className="yearSpan">2026</span>.</h1>
                 <h2>Built To Compete.</h2>

@@ -1,5 +1,8 @@
 .heroBg{
     position: relative;
+    background-size: cover;
+    background-position: center;
+    
 }
 .heroBg::before{
     content: "";

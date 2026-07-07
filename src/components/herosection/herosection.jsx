@@ -1,9 +1,33 @@
+import { useEffect, useState } from "react";
 import "./herosection.css";
 
+import hero1 from "../../assets/pexels-safi.webp"
+import hero2 from "../../assets/pexels-pavel-danilyuk.webp"
+import hero3 from "../../assets/pexels-jibarofoto.webp"
+import hero4 from "../../assets/pexels-daniel-samson.webp"
+import hero3mobile from "../../assets/pexels-jibarofoto-mobile.jpg"
+import hero4mobile from "../../assets/pexels-daniel-samson-mobile.jpg"
+
 function HeroSection(){
+
+    const desktopHero  = [hero3, hero4];
+    const mobileHero = [hero3mobile, hero4mobile]
+    const [currentImage, setCurrentImage] = useState(0);
+    const image =
+  window.innerWidth <= 480
+    ? mobileHero
+    : desktopHero;
+    useEffect(() => {
+        const interval = setInterval(() => {
+        setCurrentImage((prev) => (prev + 1) % image.length);
+        }, 5000);
+
+        return () => clearInterval(interval);
+    }, [image.length]);
+
     return(
         
-        <div className="heroBg" style={{ backgroundImage: `url("https://res.cloudinary.com/ddehh0jdv/image/upload/v1783433784/hero-section_uqyiwx.gif")`, backgroundSize: "cover", backgroundPosition: "center"}}>
+        <div className="heroBg" style={{ backgroundImage: `url(${image[currentImage]})`}}>
             <div className="heroSection" id="hero">
                 <div className="h1sAndPs">
                     <h1>Youth Enterpreneurship <span className="summitSpan">Summit</span> (YES) <span className="yearSpan">2026</span>.</h1>

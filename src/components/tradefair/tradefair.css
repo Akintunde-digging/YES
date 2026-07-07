@@ -1,7 +1,7 @@
 .tradeFairSection{
     padding-block: 60px;
     padding-inline: 60px;
-    background-color: #000;
+    background-color: var(--bg);
     display: flex;
     flex-direction: column;
     scroll-margin-top: 78px;
@@ -26,14 +26,14 @@
 .tradeFairSection h2{
     font-family: "Syne", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--heading);
     font-size: 60px;
     max-width: 900px;
     margin-bottom: 10px;
 }
 .tradeFairSection>h3{
     font-family: "DM Sans", sans-serif;
-    color: #fff;
+    color: var(--heading);
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -58,14 +58,14 @@
 }
 .provisions h3{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffd1;
+    color: var(--subheading);
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
 }
 .categories h3{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffd1;
+    color: var(--subheading);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -76,15 +76,15 @@
     font-family: "Syne", sans-serif;
     font-size: 14px;
     display: flex;
-    color: #ffffffbf;
+    color: var(--tableSAndD);
     gap: 10px;
     align-items: center;
 }
 .categories span{
     padding: 16px 18px;
-    border: 0.5px solid #ffffff1a;
+    border: 0.5px solid var(--border);
     border-radius: 10px;
-    background-color: #111;
+    background-color: var(--pitchcardbg);
 }
 .provisions .provisionArrow, .categories .categoriesIcon{
     color: #38b46b; 

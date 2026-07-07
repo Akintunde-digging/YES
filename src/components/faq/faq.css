@@ -1,7 +1,7 @@
 .faqSection{
     padding-block: 60px;
     padding-inline: 60px;
-    background-color: #000;
+    background-color: var(--bg);
 }
 .faqSection .faqContents{
     display: flex;
@@ -27,7 +27,7 @@
 .faqContents h2{
     font-family: "Syne", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--heading);
     font-size: 40px;
     margin-bottom: 40px;
     text-align: center;
@@ -42,7 +42,7 @@
 .faqQuestionsAndAnswer .faqItem{
     display: flex;
     flex-direction: column;
-    background-color: #38b46c97;
+    background-color: var(--faqbg);
     padding-inline: 35px 70px;
     padding-bottom: 20px;
     border-radius: 14px;
@@ -59,7 +59,7 @@
     display: flex;
     font-size: 20px;
     font-weight: 700;
-    color: #FFF;
+    color: var(--heading);
 }
 .faqQuestion button{
     font-size: 25px;
@@ -68,7 +68,7 @@
     align-items: center;
     justify-content: center;
     color: #03D26F;
-    background-color: #fff;
+    background-color: var(--heading);
     border: none;
     padding: 7px;
     border-radius: 6px;
@@ -83,7 +83,7 @@
     overflow: hidden;
     font-size: 13px;
     font-weight: 300;
-    color: #ffffffd1;
+    color: var(--almostheadingcolor);
 }
 .faqItem.open .faqAnswer {
   grid-template-rows: 1fr;

@@ -2,13 +2,13 @@
   overflow-x: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background-color: #000;
+  background-color: var(--bg);
 }
 .tableWrapper::-webkit-scrollbar {
   display: none;
 }
 .scheduleSection{
-    background-color: #000;
+    background-color: var(--bg);
     padding-block: 60px;
     padding-inline: 60px;
     scroll-margin-top: 78px;
@@ -33,7 +33,7 @@
 .scheduleSection h2{
     font-family: "Syne", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--heading);
     font-size: 60px;
     margin-bottom: 40px;
 }
@@ -46,10 +46,10 @@
 .scheduleTable td {
   padding: 16px 20px;
   text-align: left;
-  border-bottom: 1px solid #ffffff20;
+  border-bottom: 1px solid var(--border);
 }
 .scheduleTable th{
-    color: white;
+    color: var(--heading);
     font-family: "DM Sans", sans-serif;
     text-transform: uppercase;
 }
@@ -67,12 +67,12 @@
 }
 .scheduleTable .time{
     font-family: "Syne", sans-serif;
-    color: #fff;
+    color: var(--heading);
     font-weight: 700;
 }
 .scheduleTable .sAndD{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffbb;
+    color: var( --tableSAndD);
 }
 
 @media (max-width: 768px) {

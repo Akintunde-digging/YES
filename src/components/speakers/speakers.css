@@ -1,7 +1,7 @@
 .speakersSection{
     padding-block: 60px;
     padding-inline: 60px;
-    background-color: #000;
+    background-color: var(--bg);
     scroll-margin-top: 78px;
 }
 .speakersSection h1{
@@ -24,14 +24,14 @@
 .speakersSection h2{
     font-family: "Syne", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--heading);
     font-size: 60px;
     margin-bottom: 15px;
 }
 .speakersSection h3{
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
-    color: #fff;
+    color: var(--heading);
     text-transform: uppercase;
     margin-bottom: 40px;
 }
@@ -43,7 +43,7 @@
 .allSpeakers .eachSpeakers{
     display: flex;
     flex-direction: column;
-    outline: 1px solid #a1a1a180;
+    outline: 1px solid var(--border);
     border-radius: 15px;
     overflow: hidden;
 }

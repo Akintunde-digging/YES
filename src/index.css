@@ -11,3 +11,38 @@ html{
 body{
   background-color: #000;
 }
+
+:root {
+  --bg: #ffffff;
+  --text: #0f172a;
+  --heading: #020617;
+  --subheading: #04080ee8;
+  --body-text: #040404ef;
+  --border: #cdd5df;
+  --accent: #38b46b;
+  --year-stroke: #000;
+  --tableSAndD:#0f0101;
+  --pitchcardbg: #f9f7f7c1;
+  --almostheadingcolor: #0f172a;
+  --faqbg: #38b46b;
+  --footerbg: #f9f7f7;
+  --footerp: #040404ef;
+  
+}
+
+.dark {
+  --bg: #000000;
+  --text: #ffffff;
+  --heading: #ffffff;
+  --subheading: #ffffff99;
+  --body-text: #ffffff66;
+  --border: #a1a1a180;
+  --accent: #38b46b;
+  --year-stroke: #ffffffba;
+  --tableSAndD:#ffffffbb; 
+  --pitchcardbg: #111;
+  --almostheadingcolor: #ffffffd1;
+  --faqbg: #38b46c97;
+  --footerbg: #0a0a0ad9;
+  --footerp: #9CA3AF;
+}

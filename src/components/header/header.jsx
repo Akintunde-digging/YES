@@ -1,10 +1,13 @@
 import "./header.css";
 import yesLogo from "../../assets/yes logo.jpg";
 import { LuMenu, LuX } from "react-icons/lu";
+import { MdOutlineLightMode, MdNightlightRound } from "react-icons/md";
+import { useTheme } from "../../context/themecontext";
 import { useState } from "react";
 
 function Header(){
     const [menuOpen, setMenuOpen] = useState(false);
+    const { darkMode, toggleTheme } = useTheme();
     return(
         <header>
             <nav>
@@ -19,6 +22,9 @@ function Header(){
                     </ul>
                     <button className="getStartedButton">Register Now</button>
                 </div>
+                <button className="themeButton" onClick={toggleTheme}>
+                    {darkMode ? <MdOutlineLightMode /> : <MdNightlightRound />}
+                </button>
                 <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <LuX /> : <LuMenu />}</button>
             </nav>
         </header>

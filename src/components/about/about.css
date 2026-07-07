@@ -1,14 +1,14 @@
 .aboutSection{
     padding-block: 60px;
     padding-inline: 60px;
-    background-color: #000;
+    background-color: var(--bg);
     scroll-margin-top: 78px;
 }
 .aboutSection h1{
     font-family: "DM Sans", sans-serif;
     display: flex;
     align-items: center;
-    color: #38b46b;
+    color: var(--accent);
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -17,14 +17,14 @@
     margin-bottom: 20px;
 }
 .aboutSection h1 span{
-    background-color: #38b46b;
+    background-color: var(--accent);
     width: 24px;
     height: 2px;
 }
 .aboutSection p{
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
-    color: #ffffff99;
+    color: var(--subheading);
     line-height: 1.7;
     margin-bottom: 10px;
 }
@@ -37,13 +37,13 @@
 .whether h2, .whether h3{
     font-family: "Syne", sans-serif;
     font-size: 24px;
-    color: #ffffffec;
+    color: var(--text);
 }
 .whether ul{
     display: flex;
     flex-direction: column;
     list-style: none;
-    color: #ffffffc5;
+    color: var(--body-text);
     gap: 5px;
 }
 .whether ul li{

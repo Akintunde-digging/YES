@@ -22,6 +22,7 @@ nav .logoDiv{
     align-items: center;
     gap: 40px;
     padding-block: 20px;
+    margin-left: auto;
 }
 .listAndButton ul{
     list-style-type: none;
@@ -50,7 +51,20 @@ nav .logoDiv{
     display: none;
     z-index: 1000;
 }
-
+.themeButton {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
 @media (max-width: 768px) {
     .hamburger{
         display: flex;
@@ -90,6 +104,10 @@ nav .logoDiv{
     }
     nav ul a{
     color: #fff;
+    }
+    .themeButton{
+        margin-left: auto;
+        margin-right: 20px;
     }
 }
 @media (max-width: 480px) {

@@ -1,7 +1,19 @@
+.heroBg{
+    position: relative;
+}
+.heroBg::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 1;
+}
 .heroSection{
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-direction: column;
-    background-color: #000;
     padding-inline: 60px;
     padding-bottom: 60px;
     scroll-margin-top: 78px;
@@ -21,7 +33,7 @@
     margin-block: 40px 10px;
 }
 .h1sAndPs h1 .summitSpan{
-    color: #38b46b;
+    color: #38b46b
 }
 .h1sAndPs h1 .yearSpan{
     -webkit-text-stroke: 1px #ffffffba;
@@ -70,7 +82,7 @@
     font-family: "Syne", sans-serif;
     font-size: 15px;
     font-weight: 700;
-    color: #fff;
+    color: #ffffff;
 }
 .heroSection .buttons{
     display: flex;
@@ -100,7 +112,7 @@
 }
 .buttons .others:hover{
     color: #000;
-    background-color: #38b46b;
+    background-color: var(--accent);
     border: 1.5px solid transparent;
     font-weight: 600;
 }

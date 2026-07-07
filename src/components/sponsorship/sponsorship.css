@@ -1,7 +1,7 @@
 .sponsorsSection{
     padding-block: 60px;
     padding-inline: 60px;
-    background-color: #000;
+    background-color: var(--bg);
     scroll-margin-top: 78px;
 }
 .sponsorsSection h1{
@@ -24,14 +24,14 @@
 .sponsorsSection h2{
     font-family: "Syne", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: var(--heading);
     font-size: 60px;
     max-width: 800px;
     margin-bottom: 10px;
 }
 .sponsorsSection>h3{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffd1;
+    color: var(--almostheadingcolor);
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.5px;
@@ -56,14 +56,14 @@
 }
 .sponsorsOffers h3{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffd1;
+    color: var(--almostheadingcolor);
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
 }
 .sponsorsCategories h3{
     font-family: "DM Sans", sans-serif;
-    color: #ffffffd1;
+    color: var(--almostheadingcolor);
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -74,17 +74,17 @@
     font-family: "Syne", sans-serif;
     font-size: 14px;
     display: flex;
-    color: #ffffffbf;
+    color: var(--tableSAndD);
     gap: 10px;
     align-items: center;
 }
 .sponsorsCategories span{
     font-size: 16px;
-    color: #fff;
+    color: var(--heading);
     padding: 20px 18px;
-    border: 0.5px solid #ffffff1a;
+    border: 0.5px solid var(--border);
     border-radius: 10px;
-    background-color: #111;
+    background-color: var(--pitchcardbg);
     justify-content: center;
 }
 .sponsorsOffers .sponsorOfferCheck{
@@ -112,9 +112,9 @@
     font-weight: 700;
 }
 .sponsorshipButtons .button2{
-    color: #fff;
+    color: var(--heading);
     background-color: transparent;
-    border: 1.5px solid #a1a1a180;
+    border: 1.5px solid var(--border);
     font-weight: 600;
 }
 .sponsorshipButtons .button2:hover{
